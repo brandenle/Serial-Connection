@@ -29,3 +29,8 @@ sudo sh -c "echo '$usr ALL=(ALL) NOPASSWD:$pt/tcommands/showcommands.sh' >> /etc
 sudo sh -c "echo '$usr ALL=(ALL) NOPASSWD:$pt/tcommands/updatecommands.sh' >> /etc/sudoers"
 sudo sh -c "echo '$usr ALL=(ALL) NOPASSWD:$pt/connect.sh' >> /etc/sudoers"
 sudo sh -c "echo '$usr ALL=(ALL) NOPASSWD:$pt/serialmenu.sh' >> /etc/sudoers"
+
+#Dependacies
+sudo apt-get install putty -y
+sudo apt-get install thunar -y
+sudo apt-get install screen -y
